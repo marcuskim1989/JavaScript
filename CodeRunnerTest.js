@@ -11,4 +11,8 @@
 
 // console.log(greeting, person, "aged ", age)
 
-console.log(!(4 != 4))
+// console.log(!(4 != 4))
+
+for (i = 1; i <= 100; i++) {
+    console.log(i + " M&M's")
+}
