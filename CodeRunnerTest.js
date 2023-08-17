@@ -17,14 +17,26 @@
 //     console.log(i + " M&M's")
 // }
 
-function letterFinder(word, match) {
-    for (var i = 0; i <= word.length; i++) {
-        if (word[i] == match){
-            console.log("Found the ", match,  "at ", i)
-        } else {
-            console.log("---No match found at ", i)
-        }
-    }
-}
+// function letterFinder(word, match) {
+//     for (var i = 0; i <= word.length; i++) {
+//         if (word[i] == match){
+//             console.log("Found the ", match,  "at ", i)
+//         } else {
+//             console.log("---No match found at ", i)
+//         }
+//     }
+// }
 
-letterFinder("test", "t")
+// letterFinder("test", "t")
+
+var object = {
+    prop1: "hi",
+    prop2: "my",
+    prop3: "name",
+    prop4: "is",
+    prop5: "batman"
+};
+
+object.prop6 = "and I'm an alcoholic";
+
+console.log(object);
